@@ -1,6 +1,6 @@
 package git_only.com.mc.study;
 
-class emp{
+class em2{
 	
 }
 class Cal{
