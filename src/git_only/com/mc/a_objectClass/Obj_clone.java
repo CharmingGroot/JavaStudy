@@ -4,7 +4,8 @@ import java.awt.Point;
 
 // cloneable 인터페이스 구현
 public class Obj_clone implements Cloneable{ // 클론 구현시 Cloneable을 반드시 implements 구현해줘야한다. 안해주면 예외발생한다.
-
+	
+	
 	int x, y;
 
 	public Obj_clone(int x, int y) { 
@@ -28,12 +29,18 @@ public class Obj_clone implements Cloneable{ // 클론 구현시 Cloneable을 �
 	}
 }
 
+
+
+
 class CloneEX1{
 	public static void main(String[] args) {
 		Point original = new Point(2, 6);
 		Point copy = (Point)original.clone();
 		System.out.println(original);
 		System.out.println(copy);
+		
+	
+		
 	}
 
 }
