@@ -21,5 +21,8 @@ public class MethodChaining {
 
 		System.out.println(str2);
 		
+		// 스트링 클래스의 문제점
+		
+		
 	}
 }
